@@ -1,0 +1,15 @@
+.register_turn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    padding: 2rem;
+}
+
+.form_register {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+

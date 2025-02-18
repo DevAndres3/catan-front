@@ -1,0 +1,14 @@
+.title_result{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.results {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+}
+th, td {
+    border-bottom: 1px solid black !important;
+}
