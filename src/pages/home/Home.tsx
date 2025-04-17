@@ -1,20 +1,14 @@
-import '../../styles/home/home.css'
-import { useState } from 'react'
+// import '../../styles/home/home.css'
 
-import { TurnRegister } from '../../components/home/TurnRegister'
-import { TableResult } from '../../components/table/TableResult'
+import { GameCard } from "../../components/games/gameCard/GameCard"
+
 
 export const Home = () => {
-    
 
-
-    const [results, setResults] = useState<string[]>([])
-    const numberResults = results.map(value => parseInt(value))
-    
     return (
-        <div className='main_container'>
-            <TurnRegister results={numberResults} setResults={setResults} />
-            <TableResult results={results} />
+        <div className="flex p-10">
+           <GameCard />
+           
         </div>
     )
 }

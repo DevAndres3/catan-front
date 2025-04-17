@@ -1,4 +1,4 @@
-.title_result{
+.title_result {
     font-size: 1.5rem;
     text-align: center;
 }
@@ -9,6 +9,7 @@
     align-items: stretch;
     height: 100vh;
 }
-th, td {
+th,
+td {
     border-bottom: 1px solid black !important;
 }

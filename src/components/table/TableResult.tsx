@@ -4,10 +4,8 @@ export interface TableResultProps {
 }
 export const TableResult = ({ results }: TableResultProps) => {
     return (
-        <section className='results'>
-            <h1 className="title_result">
-                Tabla de resultados por turnos
-            </h1>
+        <section className="results">
+            <h1 className="title_result">Tabla de resultados por turnos</h1>
 
             <table>
                 <thead>
@@ -18,21 +16,15 @@ export const TableResult = ({ results }: TableResultProps) => {
                 </thead>
                 <tbody>
                     {results.map((result, i) => (
-
-                        <tr key={i} className='item_table'>
+                        <tr key={i} className="item_table">
                             <th>{i + 1}</th>
                             <th>
                                 <strong key={i}> {result} </strong>
                             </th>
                         </tr>
-
-                    ))
-
-                    }
+                    ))}
                 </tbody>
             </table>
-
-
         </section>
     )
 }
